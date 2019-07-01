@@ -59,6 +59,8 @@ LONG g_cObj = 0;
 //  ...             (?) set other parameters for message.
 //
 //===========================================================================
+TCHAR i;
+TCHAR j;
 void LogMsg(LPCTSTR pcszFormat, ...)
 {
 	_ASSERTE(pcszFormat && !IsBadReadPtr(pcszFormat, sizeof(*pcszFormat)));
